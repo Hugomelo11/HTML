@@ -2,21 +2,42 @@
   <head>
     <title>my first html</title>
     <style>
-      h1 {
-        color: orange;
-        font-size: 5vw;
+   
+
+      header {
+        background-color: red;
+        
+      }
+      #thisOne {
+        background-color:yellow;
+      }
+      .thisType {
+        background-color: blue;
+      }
+      .custom-box {
+        width: 320px;
+        padding: 20px;
+        border: 15px solid gray;
+        margin: 50px;
       }
     </style>
   </head>
   <body>
-    <ul>
-
-    </ul>
+    
     <a href="/students.html">students page</a>
-    <header style="font-size: 5em; color: blue">this is the header</header>
-    <img src="https://http.cat/400" width="350"><br>
-    <a href="https://bocacode.com" target="_blank">boca code's website(absolute)</a><br />
-    <a href="/candidates" target="_blank">boca code's candidates(relative)</a><br />
+    <header style="font-size: 1em;">
+      this is the header
+      <h1 id="thisOne">this is a main header, with large words</h1>
+    </header>
+    
+    <h1 class="thisType">this is a main header, with large words</h1>
+    
+    <img src="https://http.cat/400" class="custom-box"/><br />
+    <a href="https://bocacode.com" target="_blank"
+      >boca code's website(absolute)</a
+    ><br />
+    <a href="/candidates" target="_blank">boca code's candidates(relative)</a
+    ><br />
 
     <blockquote>
       let a = 1;<br />
@@ -28,7 +49,7 @@
       <button>button</button>
     </form>
     <!-- this is a comment -->
-    <h1>this is a main header, with large words</h1>
+
     <h2>omg it's smaller</h2>
     <p>This is a paragraph</p>
     <div>this is a div</div>

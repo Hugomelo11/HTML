@@ -1,0 +1,17 @@
+
+      header {
+        background-color: red;
+        
+      }
+      #thisOne {
+        background-color:yellow;
+      }
+      .thisType {
+        background-color: blue;
+      }
+      .custom-box {
+        width: 320px;
+        padding: 20px;
+        border: 15px solid gray;
+        margin: 50px;
+      }
